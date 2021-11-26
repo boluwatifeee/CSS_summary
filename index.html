@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CSS summary</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+      <div class="Introduction">
+          <h2>What is CSS?</h2>
+          <p>CSS(Cascading Style Sheet) is a stylesheet language that is used to selectively style HTML elements.<br> To link the CSS to an HTML document, a link tag is used using the <em>nameofdocument.css</em> as the href attribute of the link.</p>
+      </div>
+      <div class="image">
+          <img src="anatomy.png" alt="css anatomy">
+      </div>
+      <div class="terms">
+          <h2>Selector</h2>
+          <p id="selector">This is the HTML element to be styled e.g p for paragraph.</p>
+          <h2>Declaration</h2>
+          <p id="declaration">This specifies the property of the element to be styled </p>
+          <h2>Properties</h2>
+          <p id="prop">These are the ways in which HTML elements can be styled.Some of these properties include: <strong>color, font,width</strong></p>
+          <p id="others">Some other parts of the syntax to take note of are as follows:<br>
+          <ul>
+              <li>Apart from the selector,all other declarations and properties must be within curly brackets<em>{}</em></li>
+              <li>There must be a colon <em>:</em>within every declaration</li>
+              <li>A semicolon <em>;</em> must be used to seperate the declarations</li>
+              <li>Multiple elements can be selected to apply the same style to them. The elements have to be seperated by commas</li>
+          </ul></p>
+      </div>
+      <div class="selector-types">
+          <p>The list below explains types of selsctors in CSS:</p>
+          <ol>
+              <li>Element Selector:This is the HTML tag to be styled.For instance p is the element selector for paragraphs</li>
+              <li>ID selector:An id value should be unique i.e no two elements should have the same id. Example of styling an element with id <em>#idvalue</em></li>
+              <li>Class selector:This is used to style elements within the same class. The syntax is <em>.classname</em></li>
+              <li>Attribute selector":The element(s) on the page with the specified attribute.For example:<em> img[src]</em></li>
+              <li>Pseudo-class selector:The specified element(s), but only when in the specified state. For example <strong>hover</strong><em>a:hover</em>when the cover hovers on the link, the declarations made can be seen e.g underline</li>
+          </ol>
+      </div>
+      <div class="font">
+          <p>The property font-family refers to the font(s) you want to use for text.Font-size is used to set a value for the size of the texts.The elements inherit the font properties of the HTML body unless specific font properties are assigned to certain elements.</p>
+      </div>
+      <div class="box">
+          <p>CSS layout is mostly based on the box model i.e properties like size,position e.t.c. are arranged in forms of boxes.Each box on the page can be represented by the image below: </p>
+          <img src="box.png" alt="CSS box">
+          <ul>
+              <li>Padding:This is the space around the content.In the image above,it is the space around the paragraph text.</li>
+              <li>Border:This is the solid line outside the padding.</li>
+              <li>Margin:This is the space around the outside of the border.</li>
+          </ul>
+          <p>Some other properties to take note of are:</p>
+          <ul>
+              <li><em>Width</em> of an element</li>
+              <li><em>Background color,</em> the color behind the contents</li>
+              <li><em>Color,</em> the color of the elements contenets</li>
+              <li><em>Textshadow,</em> sets a shadow on the contents</li>
+              <li><em>Display,</em> sets the display mode of an element</li>
+          </ul>
+      </div>
+      <p>PS:This lesson is based on <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics" target="blank">CSS basics.</a></p>
+  </body>
+</html>
